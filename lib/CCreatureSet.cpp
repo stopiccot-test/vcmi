@@ -26,7 +26,6 @@ const CStackInstance &CCreatureSet::operator[](SlotID slot) const
 {
 	auto i = stacks.find(slot);
 
-}}
 
 	if (i != stacks.end())
 		return *i->second;
