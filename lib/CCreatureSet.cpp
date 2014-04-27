@@ -26,7 +26,7 @@ const CStackInstance &CCreatureSet::operator[](SlotID slot) const
 {
 	auto i = stacks.find(slot);
 
->>>>>>>
+	eblo nahui
 
 	if (i != stacks.end())
 		return *i->second;
